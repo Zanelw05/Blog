@@ -103,7 +103,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
-			interval: 1.5, // 轮播间隔时间（秒）
+			interval: 3, // 轮播间隔时间（秒）
 		},
 
 		waves: {
@@ -180,30 +180,30 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
-			"/assets/desktop-banner/d1.webp",
-			"/assets/desktop-banner/d2.webp",
-			"/assets/desktop-banner/d3.webp",
-			"/assets/desktop-banner/d4.webp",
-			"/assets/desktop-banner/d5.webp",
-			"/assets/desktop-banner/d6.webp",
-			"/assets/desktop-banner/d7.webp",
-			"/assets/desktop-banner/d8.webp",
+			"assets/desktop-banner/d1.webp",
+			"assets/desktop-banner/d2.webp",
+			"assets/desktop-banner/d3.webp",
+			"assets/desktop-banner/d4.webp",
+			"assets/desktop-banner/d5.webp",
+			"assets/desktop-banner/d6.webp",
+			"assets/desktop-banner/d7.webp",
+			"assets/desktop-banner/d8.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/m1.webp",
-			"/assets/mobile-banner/m2.webp",
-			"/assets/mobile-banner/m3.webp",
-			"/assets/mobile-banner/m4.webp",
-			"/assets/mobile-banner/m5.webp",
-			"/assets/mobile-banner/m6.webp",
-			"/assets/mobile-banner/m7.webp",
-			"/assets/mobile-banner/m8.webp",
+			"assets/mobile-banner/m1.webp",
+			"assets/mobile-banner/m2.webp",
+			"assets/mobile-banner/m3.webp",
+			"assets/mobile-banner/m4.webp",
+			"assets/mobile-banner/m5.webp",
+			"assets/mobile-banner/m6.webp",
+			"assets/mobile-banner/m7.webp",
+			"assets/mobile-banner/m8.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
-		interval: 3, // 轮播间隔时间（秒）
+		interval: 5, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
 	opacity: 0.8, // 壁纸透明度
